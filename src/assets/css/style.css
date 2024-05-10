@@ -210,18 +210,20 @@ section {
   display: flex;
   align-items: center;
   background: linear-gradient(90deg, rgb(0 0 0 / 90%), rgb(68 68 68 / 35%)),
-    url(../images/home-img) no-repeat;
+    url(../images/menu-4.jpeg) no-repeat;
   background-size: cover;
-  background-position: center;
+  background-position: left top;
 }
 
 .home .content {
-  max-width: 60rem;
+  max-width: 30rem;
+  margin-top: 10rem;
 }
 
 .home span {
   color: #ffc107;
   text-transform: uppercase;
+  
 }
 
 .home .content h3 {
@@ -544,6 +546,16 @@ section {
 .footer .credit span {
   color: #ffc107;
 }
+
+.footer .credit span a {
+  color: inherit;
+}
+
+.footer .credit span a:hover {
+  color: inherit;
+  text-decoration: underline;
+}
+
 
 /* media queries  */
 @media (max-width: 991px) {
