@@ -17,10 +17,10 @@ const App = () => {
       <Home />
       <About />
       <Menu />
+      <Blog />
       <Products />
       <Review />
       <Contact />
-      <Blog />
       <Footer />
     </>
   );

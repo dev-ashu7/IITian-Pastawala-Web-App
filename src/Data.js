@@ -1,9 +1,9 @@
-import menuImage1 from "./assets/images/menu-1.png";
-import menuImage2 from "./assets/images/menu-2.png";
-import menuImage3 from "./assets/images/menu-3.png";
-import menuImage4 from "./assets/images/menu-4.png";
-import menuImage5 from "./assets/images/menu-5.png";
-import menuImage6 from "./assets/images/menu-6.png";
+import menuImage1 from "./assets/images/menu-1.jpeg";
+import menuImage2 from "./assets/images/menu-2.jpeg";
+import menuImage3 from "./assets/images/menu-3.jpeg";
+import menuImage4 from "./assets/images/menu-4.jpeg";
+// import menuImage5 from "./assets/images/menu-5.png";
+// import menuImage6 from "./assets/images/menu-6.png";
 import cartImage1 from "./assets/images/cart-item-1.png";
 import cartImage2 from "./assets/images/cart-item-2.png";
 import cartImage3 from "./assets/images/cart-item-3.png";
@@ -20,22 +20,26 @@ import blogImage3 from "./assets/images/blog-3.jpeg";
 const menu = [
   {
     img: menuImage1,
+    title: "Macaroni Pasta",
   },
   {
     img: menuImage2,
+    title: "Penny Pasta",
   },
   {
     img: menuImage3,
+    title: "Vermicelli Pasta",
   },
   {
     img: menuImage4,
+    title: "Plain Pasta",
   },
-  {
-    img: menuImage5,
-  },
-  {
-    img: menuImage6,
-  },
+  // {
+  //   img: menuImage5,
+  // },
+  // {
+  //   img: menuImage6,
+  // },
 ];
 
 const cart = [
